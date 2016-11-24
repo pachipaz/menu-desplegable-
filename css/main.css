@@ -1,0 +1,113 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+.fondo {
+	background-image: url("../image/blue.png");
+	height:150px;
+	background-size: cover;
+	background-position: center;
+}
+.transparencia{
+	width: 300px;
+    height: 99px;
+    background-color: rgba(3, 127, 153, 0.7);
+    margin-left: 27px;
+    margin-top:-133px;
+ 
+}
+
+.uno{
+	color:white;
+	margin-left: 150px;
+	padding-top: 30px;
+
+}
+ .dos {
+ 	color: white;
+ 	margin-left: 150px;
+ }
+
+
+
+/* clase menu hamburguesa sin js*/
+.menu {
+	background-color:#01DFD7;
+	height: 60px;
+	margin-top: 34px;
+	} 
+
+.boton {
+
+	display: block;
+	width: 40px;
+	height: 22px;
+	padding: 10px;
+	border-radius: 7px;
+	background: #1f8aa9;
+	color: white;
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+}
+ 
+.boton span {
+	display: block;
+	width: 40px;
+	height: 1px;
+	background: white;
+	margin-top:5px;
+}
+ 
+label {  
+  cursor: pointer;
+}
+#menu-toggle {
+  display: none; hide the checkbox 
+}
+#menu {
+  display: none;
+  text-align: center;
+  background: white;
+  padding:10px 0;
+}
+ 
+#menu li a {
+	color: white;
+	padding: 10px 0;
+	display: block;
+}
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+.barcos {
+height: 60px;
+background-color:#1f8aa9;
+
+}
+.tattoo{
+	height: 60px;
+	background:#01DFD7;
+}
+.sirenas{
+	background-color:#1f8aa9;
+	height: 60px;
+}
+.tesoros{
+	height: 60px;
+	background-color: #01DFD7;
+}
+.ron {
+	height: 60px;
+	background-color: #1f8aa9;
+}
+.ballenas{
+	height: 60px;
+	background-color: #01DFD7;
+}
+.fa-anchor {
+	color: red;
+	display: inline-block;
+}
