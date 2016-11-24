@@ -5,28 +5,34 @@
 
 .fondo {
 	background-image: url("../image/blue.png");
-	height:150px;
+	height:300px;
 	background-size: cover;
 	background-position: center;
 }
 .transparencia{
 	width: 300px;
-    height: 99px;
+    height: 200px;
     background-color: rgba(3, 127, 153, 0.7);
     margin-left: 27px;
-    margin-top:-133px;
+    margin-top:-280px;
  
 }
 
 .uno{
 	color:white;
-	margin-left: 150px;
+	margin-left: 128px;
 	padding-top: 30px;
+	font-family: 'Bad Script', cursive;
+	font-size: 60px;
+
 
 }
  .dos {
  	color: white;
- 	margin-left: 150px;
+ 	margin-left: 111px;
+ 	font-family: 'Bad Script', cursive;
+ 	font-size: 60px;
+ 	margin-top: -45px;
  }
 
 
@@ -64,7 +70,7 @@ label {
   cursor: pointer;
 }
 #menu-toggle {
-  display: none; hide the checkbox 
+  display: none; 
 }
 #menu {
   display: none;
@@ -107,7 +113,64 @@ background-color:#1f8aa9;
 	height: 60px;
 	background-color: #01DFD7;
 }
-.fa-anchor {
-	color: red;
+.fa-anchor, .fa-tint, .fa-heart,.fa-map, .fa-smile {
+	color: white;
+	display: inline-block;    
+}
+span i{
+	border-right: 50%;
+}
+
+
+/*MEDIA QUERY*/
+
+@media (min-width:700px){
+.transparencia{
+	width: 640px;
+    height: 258px;
+    background-color: rgba(3, 127, 153, 0.7);
+    margin-left: 27px;
+    margin-top:-292px;
+}
+.uno, .dos {
+	margin-left: 300px; 
+	font-family: 'Bad Script', cursive;
+	font-size:60px;
+}
+.dos{
+	margin-left: 280px;
+}
+#menu {
+  display: none;
+  text-align: center;
+  background: white;
+  padding:10px 0;
+}
+ 
+#menu li a {
+	color: white;
+	padding: 10px 0;
+	display: block;
+}
+
+}
+@media (min-width:1200px){
+.transparencia{
+	width: 1195px;
+    height: 245px;
+    background-color: rgba(3, 127, 153, 0.7);
+    margin-left: 27px;
+    margin-top:-280px;
+}
+.uno, .dos {
+	margin-left: 538px; 
+	font-size: 60px;
 	display: inline-block;
+}
+.uno{
+	margin-left: 563px;
+}
+.dos{
+	margin-top: -18px;
+}
 }
