@@ -123,8 +123,35 @@ span i{
 
 
 /*MEDIA QUERY*/
+@media(min-width: 400px){
+	#menu-toggle {
+  display:none; 
+}
+.boton{
+	visibility: visible;
+}
+#menu li a {
+    color: white;
+    padding: 10px 0;
+    display: block;
+}
 
+}
 @media (min-width:700px){
+ #menu ul {
+  visibility: visible;
+  display: inline-block;
+  text-align: center;
+  background: white;
+  padding:10px 0;
+}
+.menu{
+	visibility: hidden;
+}
+.boton{
+	visibility: hidden;
+}
+
 .transparencia{
 	width: 640px;
     height: 258px;
