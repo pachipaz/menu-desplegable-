@@ -75,8 +75,8 @@ label {
 #menu {
   display: none;
   text-align: center;
-  background: white;
   padding:10px 0;
+  margin-top: 8px;
 }
  
 #menu li a {
@@ -98,12 +98,12 @@ background-color:#1f8aa9;
 	background:#01DFD7;
 }
 .sirenas{
-	background-color:#1f8aa9;
+	background-color:#2E9AFE;
 	height: 60px;
 }
 .tesoros{
 	height: 60px;
-	background-color: #01DFD7;
+	background-color: #045FB4;
 }
 .ron {
 	height: 60px;
@@ -144,11 +144,15 @@ span i{
   text-align: center;
   background: white;
   padding:10px 0;
+  height: 200px;
 }
 .menu{
 	visibility: hidden;
 }
 .boton{
+	visibility: hidden;
+}
+#menu-toggle {
 	visibility: hidden;
 }
 
@@ -168,10 +172,16 @@ span i{
 	margin-left: 280px;
 }
 #menu {
-  display: none;
-  text-align: center;
-  background: white;
-  padding:10px 0;
+    display: block;
+    text-align: center;
+    background: white;
+    padding: 10px 0;
+    visibility: visible;
+}
+ul li {
+	display: block;
+	float: left;
+	width: 300px;
 }
  
 #menu li a {
@@ -179,9 +189,12 @@ span i{
 	padding: 10px 0;
 	display: block;
 }
+/*ul li ,.barcos,.sirenas,.ron{
+	margin-left: 100px;
+}*/
 
 }
-@media (min-width:1200px){
+@media (min-width:1024px){
 .transparencia{
 	width: 1195px;
     height: 245px;
@@ -199,5 +212,15 @@ span i{
 }
 .dos{
 	margin-top: -18px;
+}
+ul li {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 250px;
+}
+.fa-tint{
+	display: block;
+	margin-bottom: 30px;
 }
 }
