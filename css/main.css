@@ -2,6 +2,9 @@
 	margin:0px;
 	padding:0px;
 }
+.fa{
+	display: block;
+}
 
 .fondo {
 	background-image: url("../image/blue.png");
@@ -33,6 +36,7 @@
  	font-family: 'Bad Script', cursive;
  	font-size: 60px;
  	margin-top: -45px;
+ 	display: block;
  }
 
 
@@ -96,6 +100,7 @@ background-color:#1f8aa9;
 .tattoo{
 	height: 60px;
 	background:#01DFD7;
+	display: block;
 }
 .sirenas{
 	background-color:#2E9AFE;
@@ -115,10 +120,12 @@ background-color:#1f8aa9;
 }
 .fa-anchor, .fa-tint, .fa-heart,.fa-map, .fa-smile {
 	color: white;
-	display: inline-block;    
+	display: block;
 }
+
 span i{
 	border-right: 50%;
+
 }
 
 
@@ -138,6 +145,9 @@ span i{
 
 }
 @media (min-width:700px){
+	#menu{
+	margin-left: 65px;
+}
  #menu ul {
   visibility: visible;
   display: inline-block;
@@ -182,6 +192,7 @@ ul li {
 	display: block;
 	float: left;
 	width: 300px;
+	display: block;
 }
  
 #menu li a {
@@ -195,6 +206,9 @@ ul li {
 
 }
 @media (min-width:1024px){
+#menu{
+	margin-left: 50px;
+}
 .transparencia{
 	width: 1195px;
     height: 245px;
